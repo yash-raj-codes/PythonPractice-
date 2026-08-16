@@ -44,7 +44,7 @@ print(name, age , price, sep = ",  ")
 
 length = int(input("Length : "))
 width = int(input("Width : "))
-# The fake prince was exposed
+# The fake prince was exposed. 36
 print("Area of rectangle by given length and width is :", length*width)
 
 a = None 
@@ -75,3 +75,18 @@ print(num1+num2)
 """This is a docstring. 
 It is saved in memory and takes up RAM space.
 """
+print(num1 == num2)
+print(num1 != num2)
+
+#type conversion
+a = "3"
+b = 4.25
+
+sum = int(a) + b
+print(sum)
+
+aa = input()
+ab = int(input())
+ac = float(input())
+ad = bool(int(input()))
+print(aa,ab,ac,ad,sep="\n")
