@@ -47,3 +47,22 @@ for i in range(1,11):
     if i == 5:
         continue
     print(i)
+
+print("")
+print("")
+
+for i in range(1,6):
+    if i== 3:
+        pass
+    print(i)
+
+print("")
+print("")
+
+age = 20
+if age >= 18:
+    pass
+else:
+    print("Not eligible")
+
+# Here, pass means do nothing when the condition is true
