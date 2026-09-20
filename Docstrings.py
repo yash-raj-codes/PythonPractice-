@@ -35,4 +35,14 @@ print(info)
 harry = {}
 print(type(harry))
 
-#
+for value in info:
+    print(value)
+
+
+# Operations on sets
+"""Sets in the python more or less work in the same way as in the mathematics. We can perform operations like union and intersection on the sets just like in mathematics"""
+
+s1 = {1,2,5,6}
+s2 = {3,6,7}
+print(s1.union(s2))     # {1,2,3,5,6,7}
+print(s1,s2)        # s1 and s2 untouched hien rahen
